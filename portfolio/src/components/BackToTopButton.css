@@ -1,0 +1,20 @@
+.back-to-top {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background-color: #e2f266;
+  color: #212426;
+  border: none;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  font-size: 16px;
+  cursor: pointer;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+  transition: background-color 0.3s, transform 0.3s;
+}
+
+.back-to-top:hover {
+  background-color: #f2ea77;
+  transform: scale(1.1);
+}
